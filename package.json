@@ -21,6 +21,6 @@
     "shelljs": "^0.5.1"
   },
   "bin": {
-    "bower-install-openshift": "bin/install.js"
+    "openshift-bower-install": "bin/install.js"
   }
 }
