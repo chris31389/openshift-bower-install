@@ -1,5 +1,5 @@
 {
-  "name": "bower-install-openshift",
+  "name": "openshift-bower-install",
   "version": "1.0.0",
   "description": "npm package to install bower packages locally and in openshift",
   "repository": {
@@ -7,8 +7,8 @@
     "url": "git+https://github.com/chris31389/bower-install-openshift.git"
   },
   "keywords": [
-    "Bower",
     "Openshift",
+    "Bower",
     "Install"
   ],
   "author": "Christopher Butler",
