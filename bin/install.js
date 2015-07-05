@@ -4,7 +4,7 @@ shell.exec("echo shell.exec works");
 var envVar = process.env.OPENSHIFT_DATA_DIR;
 shell.exec("echo OPENSHIFT_DATA_DIR = " + envVar);
 if (envVar != undefined) {
-  shell.exec("HOME=OPENSHIFT_DATA_DIR");
-  shell.exec("echo HOME=" + envVar);
+  shell.exec("HOME=$OPENSHIFT_DATA_DIR bower install");
+}else{
+  shell.exec("bower install");
 }
-shell.exec("bower install");
