@@ -1,6 +1,6 @@
 {
   "name": "openshift-bower-install",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "npm package to install bower packages locally and in openshift",
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
     "shelljs": "^0.5.1"
   },
   "bin": {
-    "openshift-bower-install": "bin/install"
+    "openshift-bower-install": "bin/install.js"
   }
 }
