@@ -1,0 +1,26 @@
+{
+  "name": "bower-install-openshift",
+  "version": "1.0.0",
+  "description": "npm package to install bower packages locally and in openshift",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris31389/bower-install-openshift.git"
+  },
+  "keywords": [
+    "Bower",
+    "Openshift",
+    "Install"
+  ],
+  "author": "Christopher Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chris31389/bower-install-openshift/issues"
+  },
+  "homepage": "https://github.com/chris31389/bower-install-openshift#readme",
+  "dependencies": {
+    "shelljs": "^0.5.1"
+  },
+  "bin": {
+    "bower-install-openshift": "bin/install.js"
+  }
+}
